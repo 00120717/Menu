@@ -65,3 +65,10 @@ header{
 	visibility: visible;
 	opacity: 1;
 }
+.generator{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
